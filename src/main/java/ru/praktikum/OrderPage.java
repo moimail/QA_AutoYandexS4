@@ -13,7 +13,6 @@ import java.time.Duration;
 public class OrderPage {
 
     static WebDriver driver;
-
     private By nameField = By.xpath(".//input[@placeholder = '* Имя']");
     private By lastNameField = By.xpath(".//input[@placeholder = '* Фамилия']");
     private By adressField = By.xpath(".//input[@placeholder = '* Адрес: куда привезти заказ']");
@@ -25,7 +24,6 @@ public class OrderPage {
     private By rentalPeriodField = By.xpath(".//div[@class = 'Dropdown-control']");
     private By choiceColor= By.xpath(".//label[1]/input[@class = 'Checkbox_Input__14A2w']");
     private By commentField = By.xpath(".//input[@placeholder = 'Комментарий для курьера']");
-
     private By orderButton = By.xpath(".//button[2][text() = 'Заказать']");
     private By cofirmOrderForm = By.xpath(".//div[@class = 'Order_Modal__YZ-d3']");
     private By yesButton = By.xpath(".//button[2][text() = 'Да']");
